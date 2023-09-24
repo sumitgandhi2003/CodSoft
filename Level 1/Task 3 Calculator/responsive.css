@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .calculator {
+    width: 90%;
+    height: 80%;
+  }
+  .operation-btn .btn {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    padding: 5px;
+  }
+  #equal {
+    width: auto;
+    grid-column: 3/5;
+  }
+}

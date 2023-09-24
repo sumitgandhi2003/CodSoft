@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="display-screen" id="display">0</div>
+        <div class="operation-btn">
+          <div class="btn" onclick="clearDisplay('ac')">AC</div>
+          <div class="btn" onclick="charDelete()">DEL</div>
+          <div class="btn" onclick="displayInput('.')">.</div>
+          <div class="btn" onclick="displayInput('/')">/</div>
+          <div class="btn" onclick="displayInput('7')">7</div>
+          <div class="btn" onclick="displayInput('8')">8</div>
+          <div class="btn" onclick="displayInput('9')">9</div>
+          <div class="btn" onclick="displayInput('*')">*</div>
+          <div class="btn" onclick="displayInput('4')">4</div>
+          <div class="btn" onclick="displayInput('5')">5</div>
+          <div class="btn" onclick="displayInput('6')">6</div>
+          <div class="btn" onclick="displayInput('-')">-</div>
+          <div class="btn" onclick="displayInput('1')">1</div>
+          <div class="btn" onclick="displayInput('2')">2</div>
+          <div class="btn" onclick="displayInput('3')">3</div>
+          <div class="btn" onclick="displayInput('+')">+</div>
+          <div class="btn" onclick="displayInput('00')">00</div>
+          <div class="btn" onclick="displayInput('0')">0</div>
+          <div class="btn" id="equal" onclick="calculate()">Enter</div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  min-height: max-content;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+  width: 100%;
+  height: 100%;
+} */
+.header {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212336;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.header h1 {
+  font-size: 4vw;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+.nav-link {
+  display: inline-block;
+}
+.nav-bar i {
+  font-size: 2rem;
+  color: whitesmoke;
+  display: none;
+}
+.nav-link-items {
+  display: inline;
+  list-style: none;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.nav-link-items:hover {
+  background-color: #2123;
+  border-radius: 20px;
+}
+.nav-link-items a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main {
+  height: calc(100% - 100px);
+  width: 100%;
+  background-color: #23263a;
+}
+.hero-section {
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-section .text-content {
+  margin-left: 200px;
+}
+.hero-section .text-content h1 {
+  margin: 0;
+  font-size: 4.5rem;
+  color: whitesmoke;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Ubuntu", sans-serif;
+}
+.hero-section .text-content p {
+  width: 40%;
+  text-align: justify;
+  color: #3f4151;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 600;
+}
+.btn {
+  padding: 10px;
+  background-color: #ff4a57;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  transition: all ease 10ms;
+  font-weight: 400;
+}
+.btn:hover {
+  box-shadow: 7px 7px 0px #00000057;
+}
